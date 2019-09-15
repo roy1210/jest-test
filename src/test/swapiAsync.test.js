@@ -41,3 +41,17 @@ it('getPeople returns count and results', () => {
     expect(data.results.length).toBeGreaterThan(5);
   });
 });
+
+// expect.assertion(number):
+// verifies that a certain number of assertions are called during a
+// test. This is often useful when testing asynchronous
+//code, in order to make sure that assertions in a
+//callback actually got called.
+
+// Mock function:
+// Mock functions are also known as "spies", because
+// they let you spy on the behavior of a function that is
+// called indirectly by some other code, rather than just
+// testing the output. You can create a mock function with
+// jest.fn(). If no implementation is given, the mock
+// function will return undefined when invoked.
