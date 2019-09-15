@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const swapi = require('../script/script2');
+const swapi = require('../script/swapiAsync');
 
 it('calls swapi to get people', () => {
   // expect.assertions: number how many `expect` running. Call this to make sure async function has called
